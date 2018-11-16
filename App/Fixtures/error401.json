@@ -1,0 +1,9 @@
+{
+	"error": {
+		"statusCode": 401,
+		"name": "Error",
+		"message": "Authorization Required",
+		"code": "AUTHORIZATION_REQUIRED",
+		"stack": "Error: Authorization Required\n    at /Users/zhaky/Documents/Kantor/Loopback/loopback-getting-started/node_modules/loopback/lib/application.js:392:21\n    at /Users/zhaky/Documents/Kantor/Loopback/loopback-getting-started/node_modules/loopback/lib/model.js:358:7\n    at /Users/zhaky/Documents/Kantor/Loopback/loopback-getting-started/node_modules/loopback/common/models/acl.js:529:16\n    at /Users/zhaky/Documents/Kantor/Loopback/loopback-getting-started/node_modules/async/dist/async.js:3874:9\n    at /Users/zhaky/Documents/Kantor/Loopback/loopback-getting-started/node_modules/async/dist/async.js:473:16\n    at iteratorCallback (/Users/zhaky/Documents/Kantor/Loopback/loopback-getting-started/node_modules/async/dist/async.js:1050:13)\n    at /Users/zhaky/Documents/Kantor/Loopback/loopback-getting-started/node_modules/async/dist/async.js:958:16\n    at /Users/zhaky/Documents/Kantor/Loopback/loopback-getting-started/node_modules/async/dist/async.js:3871:13\n    at /Users/zhaky/Documents/Kantor/Loopback/loopback-getting-started/node_modules/loopback/common/models/acl.js:511:17\n    at /Users/zhaky/Documents/Kantor/Loopback/loopback-getting-started/node_modules/loopback/common/models/role.js:442:21\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)"
+	}
+}

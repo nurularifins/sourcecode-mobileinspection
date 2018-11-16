@@ -1,0 +1,28 @@
+{
+	"id": 1,
+	"token": "token",
+	"fullName": "Prameshwari",
+	"employeeId": "XYZ123",
+	"email": "prameshwari@email.com",
+	"handphone": "081234567890",
+	"avatar": "https://scontent-dft4-3.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/25022447_318025052035883_1653131915797987328_n.jpg",
+	"role": {
+		"id": 1,
+		"name": "Sales"
+	},
+	"dealer": {
+		"id": 1,
+		"name": "Daya Cibeureum",
+		"code": "BDO1234",
+		"photo": "http://stephenlangitan.com/wp-content/uploads/2010/09/DSC_4973.jpg",
+		"phone": "022-6037495",
+		"address": {
+			"street": "Jl. Raya Cibereum 26",
+			"building": null,
+			"province": "Jawa Barat",
+			"city": "Cimahi",
+			"district": "Andir",
+			"village": "Campaka"
+		}
+	}
+}

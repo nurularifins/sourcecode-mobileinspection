@@ -1,0 +1,64 @@
+[
+	{
+		"customer": {
+			"name": "Abhimanyu",
+			"phone": "081122223333",
+			"email": "abhimanyu@email.com"
+		},
+		"products": [
+			{
+				"id": 1,
+				"brand": "Honda",
+				"model": "CBR 150R",
+				"color": {
+					"skuId": 1,
+					"name": "Orange Sporty",
+					"hex": "#FF9800"
+				},
+				"image": "http://www.motortrade.com.ph/uploads/2016-09-27/cbr150r_repsol.png"
+			},
+			{
+				"id": 2,
+				"brand": "Honda",
+				"model": "CBR 250R",
+				"color": {
+					"skuId": 1,
+					"name": "Black",
+					"hex": "#000000"
+				},
+				"image": "https://cdn.cycletrader.com/topics/honda-cbr250.png"
+			}
+		]
+	},
+	{
+		"customer": {
+			"name": "Rudiantara",
+			"phone": "081144445555",
+			"email": "rudiantara@email.com"
+		},
+		"products": [
+			{
+				"id": 1,
+				"brand": "Honda",
+				"model": "CBR 150R",
+				"color": {
+					"skuId": 1,
+					"name": "Orange Sporty",
+					"hex": "#FF9800"
+				},
+				"image": "http://www.motortrade.com.ph/uploads/2016-09-27/cbr150r_repsol.png"
+			},
+			{
+				"id": 2,
+				"brand": "Honda",
+				"model": "CBR 250R",
+				"color": {
+					"skuId": 1,
+					"name": "Black",
+					"hex": "#000000"
+				},
+				"image": "https://cdn.cycletrader.com/topics/honda-cbr250.png"
+			}
+		]
+	}
+]

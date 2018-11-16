@@ -1,0 +1,147 @@
+{
+	"id": 1,
+	"orderNo": "SPK123",
+	"status": "Submitted",
+	"customer": {
+		"name": "Abhimanyu",
+		"handphone": "081122223333",
+		"email": "abhimanyu@gmail.com"
+	},
+	"product": {
+		"id": 1,
+		"brand": "Honda",
+		"model": "CBR 150R",
+		"basePrice": 32000000.0,
+		"color": {
+			"skuId": 1,
+			"name": "Orange Sporty",
+			"hex": "#FF9800"
+		},
+		"image": null
+	},
+	"apparels": [
+		{
+			"id": 1,
+			"brand": "KYT",
+			"model": "Black",
+			"basePrice": 250000.0,
+			"color": {
+				"skuId": 1,
+				"name": "Black",
+				"hex": "#000000"
+			},
+			"image": null
+		},
+		{
+			"id": 2,
+			"brand": "KYT",
+			"model": "Dark Grey",
+			"basePrice": 250000.0,
+			"color": {
+				"skuId": 1,
+				"name": "Dark Grey",
+				"hex": "#424242"
+			},
+			"image": null
+		}
+	],
+	"isRequestLicensePlate": true,
+	"discount": {
+		"global": 500000.0,
+		"additional": 200000.0,
+		"approved": 150000.0
+	},
+	"gifts": [
+		{
+			"id": 1,
+			"name": "Jaket eksklusif",
+			"image": null
+		}
+	],
+	"payment": {
+		"method": "Credit",
+		"amount": 32000000.0,
+		"fincoy": {
+			"id": 1,
+			"name": "Adira"
+		},
+		"downPayment": 2000000.0,
+		"tenure": 24,
+		"monthlyRepayment": 2000000.0
+	},
+	"customerForm": {
+		"legalInformation": {
+			"fullName": "Abhimanyu",
+			"ktp": {
+				"number": "1234567890123456",
+				"image": null
+			},
+			"npwp": {
+				"number": "1234567890123456",
+				"image": null
+			},
+			"kk": {
+				"number": "1234567890123456",
+				"image": null
+			}
+		},
+		"addressKtp": {
+			"street": "Jl. ABC, RT, RW",
+			"provinceId": 1,
+			"cityId": 1,
+			"districtId": 1,
+			"villageId": 1
+		},
+		"addressHome": {
+			"street": "Jl. ABC, RT, RW",
+			"provinceId": 1,
+			"cityId": 1,
+			"districtId": 1,
+			"villageId": 1
+		},
+		"addressBilling": {
+			"street": "Jl. ABC, RT, RW",
+			"provinceId": 1,
+			"cityId": 1,
+			"districtId": 1,
+			"villageId": 1
+		},
+		"personalInformation": {
+			"religionId": 1,
+			"hobby": "Swimming",
+			"occupation": "Manager",
+			"monthlyExpenses": 50000000.0,
+			"educationBackgroundId": 1,
+			"homeOwnershipStatus": 1
+		},
+		"contactInformation": {
+			"handphone2": "081123123123",
+			"homePhone": "021123123",
+			"otherEmailAddress": "abhimanyu@yahhoo.co.id",
+			"isSubscribe": true
+		},
+		"ownershipInformation": {
+			"previousMotorbikeBrandId": 1,
+			"previousMotorbikeTypeId": 1,
+			"purposeId": 1,
+			"purposedUserId": 1
+		}
+	},
+	"stnk": {
+		"fullName": "Abhimanyu",
+		"ktp": {
+			"number": "1234567890123456",
+			"image": null
+		},
+		"npwp": {
+			"number": "1234567890123456",
+			"image": null
+		},
+		"kk": {
+			"number": "1234567890123456",
+			"image": null
+		}
+	},
+	"updatedAt": null,
+	"updatedBy": null
+}

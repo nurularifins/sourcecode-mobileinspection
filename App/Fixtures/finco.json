@@ -1,0 +1,82 @@
+{
+	"version": "1.0",
+	"finco": [
+		{
+			"id": "FIN0001",
+			"name": "ADIRA",
+			"creditOption": [
+				{
+					"tenure": 12,
+					"creditSimulation": [
+						{
+							"downPayment": 1700000.0,
+							"monthlyRepayment": 705000.0
+						},
+						{
+							"downPayment": 1900000.0,
+							"monthlyRepayment": 697000.0
+						}
+					]
+				},
+				{
+					"tenure": 18,
+					"creditSimulation": [
+						{
+							"downPayment": 170000.0,
+							"monthlyRepayment": 500000.0
+						},
+						{
+							"downPayment": 190000.0,
+							"monthlyRepayment": 550000.0
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "FIN0002",
+			"name": "FIF",
+			"creditOption": [
+				{
+					"tenure": 12,
+					"creditSimulation": [
+						{
+							"downPayment": 1700000.0,
+							"monthlyRepayment": 710000.0
+						},
+						{
+							"downPayment": 1900000.0,
+							"monthlyRepayment": 650000.0
+						}
+					]
+				},
+				{
+					"tenure": 18,
+					"creditSimulation": [
+						{
+							"downPayment": 170000.0,
+							"monthlyRepayment": 500000.0
+						},
+						{
+							"downPayment": 190000.0,
+							"monthlyRepayment": 450000.0
+						}
+					]
+				},
+				{
+					"tenure": 24,
+					"creditSimulation": [
+						{
+							"downPayment": 170000.0,
+							"monthlyRepayment": 400000.0
+						},
+						{
+							"downPayment": 190000.0,
+							"monthlyRepayment": 350000.0
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,7 @@
+{
+	"_discountApprovalLowerBound": "Melebihi nilai ini, maka akan ada proses approval",
+	"discountApprovalLowerBound": 500000.0,
+	"_discountJPx": "Komponen diskon lainnya",
+	"discountJP1": 0.0,
+	"discountJP2": 0.0
+}
