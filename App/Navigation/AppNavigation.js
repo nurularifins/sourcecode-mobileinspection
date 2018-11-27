@@ -10,7 +10,7 @@ const main = createStackNavigator({
     MainMenu: {screen: MainMenu}
 },{
     headerMode:'none',
-    initialRouteName: 'SplashScreen',
+    initialRouteName: 'MainMenu',
     navigationOptions:{
 
     },

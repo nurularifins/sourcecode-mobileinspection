@@ -3,9 +3,22 @@ import { createMaterialTopTabNavigator, createStackNavigator } from 'react-navig
 
 import HistoryFinding from './HistoryFinding';
 import ListFinding from './ListFinding';
+import BuatInspeksi from '../Inspeksi/BuatInspeksi'
+
+const indicator = e => {
+  return (
+    <View
+      style={{
+        width: 30,
+        backgroundColor: "#2db92d",
+        top: 0,
+        height: 1
+      }}
+    />
+  );
+};
 
 const FindingTabs = createMaterialTopTabNavigator({
-
   Riwayat: {
     screen: HistoryFinding,
     headerMode: 'none',
@@ -26,53 +39,27 @@ const FindingTabs = createMaterialTopTabNavigator({
     headerMode: "none",
     initialRouteName: 'DaftarInspeksi',
     order: ['DaftarInspeksi', 'Riwayat'],
-    // tabBarPosition:'bottom',
     swipeEnabled: false,
-    // Optional: Override the `navigationOptions` for the screen
     tabBarOptions: {
       activeTintColor: '#51A977',
       inactiveTintColor: 'grey',
-      style: { backgroundColor: 'white' },
+      style: {
+        backgroundColor: 'white',
+        borderTopColor: "transparent",
+        elevation: 0,
+        marginTop: -20
+      },
       indicatorStyle: {
         backgroundColor: '#2db92d',
+        width: 15,
+        maxWidth: 15,
+        marginStart: '23%'
       },
       showIcon: true,
     }
   });
 
-//Issue: the tab navigator needs to be wrapped inside a stack navigator
-export default createStackNavigator({ FindingTabs }, { headerMode: "none" });
 
-// const RiwayatStack = createStackNavigator({
-//   Riwayat: HistoryInspection,
-// });
+export default createStackNavigator({ FindingTabs, BuatInspeksi: { screen: BuatInspeksi } }, { headerMode: "none" });
 
-// RiwayatStack.navigationOptions = {
-//   tabBarLabel: 'Riwayat'
-// };
-
-// const DaftarInspeksiStack = createStackNavigator({
-//   DaftarInspeksi: ListInspection,
-// });
-
-// DaftarInspeksiStack.navigationOptions = {
-//   tabBarLabel: 'Daftar Inspeksi'
-// };
-
-// export default (
-//   InspectionTabNavigator = createMaterialTopTabNavigator({
-//     DaftarInspeksiStack,
-//     RiwayatStack,
-//   }, {
-//       headerMode: 'none',
-//       tabBarOptions: {
-//         activeTintColor: '#51A977',
-//         inactiveTintColor: 'grey',
-//         style: { backgroundColor: 'white' },
-//         indicatorStyle: {
-//           backgroundColor: '#2db92d',
-//         }
-//       }
-//     }
-//   ));
 
